@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- Blake Burge - 7/25/25 -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photography Interest Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div id="wrapper">
+    <header>
+      <h1>Exploring Photography Mediums</h1>
+      <nav>
+        <ul>
+		  <li><a href="final1.html">Home</a></li>
+          <li><a href="final2.html">Photography Basics</a></li>
+          <li><a href="final3.html">Interested In A Shoot?</a></li>
+          <li><a href="final4.html">Credits</a></li>
+      </nav>
+    </header>
+
+    <main>
+      <form>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+
+        <label>Favorite Style:</label><br>
+        <input type="radio" name="genre" value="portrait"> Portrait<br>
+        <input type="radio" name="genre" value="street"> Street<br>
+        <input type="radio" name="genre" value="artistic"> Artistic<br><br>
+
+        <label>Preferred Equipment:</label><br>
+        <input type="checkbox" name="gear" value="dslr"> DSLR<br>
+        <input type="checkbox" name="gear" value="mirrorless"> Mirrorless<br>
+        <input type="checkbox" name="gear" value="smartphone"> Smartphone<br><br>
+
+        <label for="date">Preferred Shoot Date:</label>
+        <input type="date" id="date" name="date"><br><br>
+
+        <label for="thoughts">Your Thoughts:</label><br>
+        <textarea id="thoughts" name="thoughts" rows="5" cols="30"></textarea><br><br>
+
+        <label for="location">Shoot Location:</label>
+        <select id="location" name="location">
+          <option value="urban">Urban</option>
+          <option value="nature">Nature</option>
+          <option value="studio">Studio</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </form>
+
+      <img src="dog-portrait.jpg" alt="Studio Portrait Shoot">
+    </main>
+
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="final1.html">Home</a></li>
+          <li><a href="final2.html">Cameras</a></li>
+          <li><a href="final3.html">Form</a></li>
+          <li><a href="final4.html">Credits</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </div>
+
+</body>
+</html>
